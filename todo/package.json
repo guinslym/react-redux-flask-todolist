@@ -6,6 +6,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "patw <patw.hi@gmail.com> (http://patw.idv.tw/)",
-  "license": "MIT"
+  "author": "patw <patw.hi@gmail.com> (https://patw.me/)",
 }
