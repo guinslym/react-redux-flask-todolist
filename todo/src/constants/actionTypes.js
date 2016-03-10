@@ -1,0 +1,1 @@
+export const RETRIEVE_INIT_DATA = 'RETRIEVE_INIT_DATA';
