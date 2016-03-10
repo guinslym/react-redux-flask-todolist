@@ -1,4 +1,6 @@
 *.py[cod]
+dist/
+npm-debug.log
 
 # C extensions
 *.so
