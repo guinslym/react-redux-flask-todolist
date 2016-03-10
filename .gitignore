@@ -1,0 +1,24 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Installer logs
+pip-log.txt
+
+# Mac
+.DS_Store
+
+# Fire.app
+Thumbs.db
+*~
+.coffeescript-cache
+.sass-cache
+compass_app_log.txt
+fire_app_log.txt
+document_root
+tmp
+.bundle
+
+venv
+application.cfg
