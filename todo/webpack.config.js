@@ -13,7 +13,7 @@ const eslintrcPath = path.resolve(__dirname, '.eslintrc');
 
 module.exports = {
   entry: [
-    './src/app',
+    './src/container/App',
     'webpack/hot/dev-server',
   ],
   output: {
