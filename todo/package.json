@@ -1,0 +1,11 @@
+{
+  "name": "react-redux-flask-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "static/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "patw <patw.hi@gmail.com> (http://patw.idv.tw/)",
+  "license": "MIT"
+}
