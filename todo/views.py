@@ -6,6 +6,10 @@ from todo import app
 from flask import render_template, jsonify, request
 
 
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+JSON_URL = os.path.join(SITE_ROOT, 'static', 'todos.json')
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -13,9 +17,6 @@ def index():
 
 @app.route('/api/todos/', methods=['GET'])
 def todos_list():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    JSON_URL = os.path.join(SITE_ROOT, 'static', 'todos.json')
-
     with open(JSON_URL) as data_file:
         json_data = json.load(data_file)
 
@@ -24,9 +25,6 @@ def todos_list():
 
 @app.route('/api/todos/', methods=['PUT'])
 def todos_update():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    JSON_URL = os.path.join(SITE_ROOT, 'static', 'todos.json')
-
     data_dict = json.loads(request.data)
     id = data_dict['id']
     title = data_dict['title']
@@ -44,9 +42,6 @@ def todos_update():
 
 @app.route('/api/todos/', methods=['DELETE'])
 def todos_remove():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    JSON_URL = os.path.join(SITE_ROOT, 'static', 'todos.json')
-
     data_dict = json.loads(request.data)
     id = data_dict['id']
 
