@@ -4,7 +4,7 @@
   "description": "",
   "main": "static/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "patw <patw.hi@gmail.com> (https://patw.me/)",
   "license": "MIT",
