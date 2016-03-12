@@ -22,5 +22,6 @@ document_root
 tmp
 .bundle
 
+node_modules
 venv
 application.cfg
