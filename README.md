@@ -46,7 +46,7 @@ Made a todo list practice project.
 3. Install python packages:
 
    ```
-   pip -r pip-requires.txt
+   pip install -r pip-requires.txt
    ```
 
 4. Start backend:
@@ -60,7 +60,7 @@ Made a todo list practice project.
 1. Go to frontend folder:
 
   ```
-  cd todos/
+  cd todo/
   ```
 
 2. Install packages:
